@@ -1,6 +1,6 @@
 {
   "name": "generate-passphrase-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate a passphrase using random words, like `battery-horse-staple`.",
   "bin": {
     "generate-passphrase": "index.js",
