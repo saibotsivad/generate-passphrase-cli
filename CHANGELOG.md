@@ -16,6 +16,10 @@ Change categories are:
 
 ## [Unreleased]
 
+## [1.0.3] - 2020-01-07
+### Fixed
+- Don't use destructuring, to support older versions of NodeJS.
+
 ## [1.0.2] - 2020-01-07
 ### Fixed
 - Specify correct hashbang and chmod +x the file.
@@ -29,6 +33,7 @@ Change categories are:
 - Initial release with viable functionality.
 
 [Unreleased]: https://github.com/saibotsivad/generate-passphrase-cli/compare/v1.0.0...HEAD
+[1.0.3]: https://github.com/saibotsivad/generate-passphrase-cli/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/saibotsivad/generate-passphrase-cli/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/saibotsivad/generate-passphrase-cli/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/saibotsivad/generate-passphrase-cli/compare/v0.0.0...v1.0.0

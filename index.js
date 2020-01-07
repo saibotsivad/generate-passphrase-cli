@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { version } = require('./package.json')
+const pkg = require('./package.json')
 const randomWord = require('random-word')
 const sade = require('sade')
 
@@ -10,7 +10,7 @@ const DEFAULT_WORDS = 6
 const DEFAULT_SEPARATOR = '-'
 
 sade('generate-passphrase', true)
-	.version(version)
+	.version(pkg.version)
 	.describe('Generate a passphrase using a list of random words.')
 	.example('# default options')
 	.example('--min=1 --max=3 # small words')
