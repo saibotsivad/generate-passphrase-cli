@@ -1,0 +1,22 @@
+{
+  "name": "generate-passphrase-cli",
+  "version": "0.0.0",
+  "description": "Generate a passphrase using random words, like `battery-horse-staple`.",
+  "bin": {
+    "generate-passphrase": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saibotsivad/generate-passphrase-cli.git"
+  },
+  "author": "saibotsivad",
+  "license": "VOL",
+  "bugs": {
+    "url": "https://github.com/saibotsivad/generate-passphrase-cli/issues"
+  },
+  "homepage": "https://github.com/saibotsivad/generate-passphrase-cli#readme",
+  "dependencies": {
+    "random-word": "^2.0.0",
+    "sade": "^1.7.0"
+  }
+}
