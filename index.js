@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { version } = require('./package.json')
 const randomWord = require('random-word')
 const sade = require('sade')

@@ -16,6 +16,10 @@ Change categories are:
 
 ## [Unreleased]
 
+## [1.0.2] - 2020-01-07
+### Fixed
+- Specify correct hashbang and chmod +x the file.
+
 ## [1.0.1] - 2020-01-07
 ### Fixed
 - Alias of bin for use with npx, aka `npx generate-passphrase-cli --words=10` now works.
@@ -25,5 +29,6 @@ Change categories are:
 - Initial release with viable functionality.
 
 [Unreleased]: https://github.com/saibotsivad/generate-passphrase-cli/compare/v1.0.0...HEAD
+[1.0.2]: https://github.com/saibotsivad/generate-passphrase-cli/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/saibotsivad/generate-passphrase-cli/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/saibotsivad/generate-passphrase-cli/compare/v0.0.0...v1.0.0
